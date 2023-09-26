@@ -1,3 +1,30 @@
+*
+.cabecalho{
+    background-color: #0a0105;
+    color: #e6117b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.cabecalho-imagem{
+    width: 15%;
+    padding-left: 2px;
+    padding-top: 0px;
+}
+.cabecalho-lista-item{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: o 16px;
+    font-size: 24px;
+} 
+.cabecalho-lista-item :hover{
+    color: #e6117b;
+    background-color: aliceblue;
+    transition: 0.5s;
+    opacity: 0.5;
+}
 #banner {
     width: 100%;
 }
