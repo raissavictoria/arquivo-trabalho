@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Barbearia Pink</title>
+		<link rel="stylesheet" href="style.css">
   </head>
 
   <body>
+     <div class="root">
     <header>
-        <h class="titulo-principal">Barbearia Pink</h1>
-            <header class="cabecalho"> 
-                <img class="cabecalho-imagem" src="LOGO_BARBEARIA.PNG" alt="LOGISTE."> 
-                <ul class="cabecalho-lista-item"> 
+      <div class="container-header">
 
-                    <li class="cabecalho-lista-item"><a href="serviço.html">SERVIÇOS</li><a> 
-                    <li class="cabecalho-lista-item"><a href="dianoivo.html">DIA DO NOIVO</li></a>
-                    <li class="cabecalho-lista-item"><a href="prodyto.html">PRODUTO</li></a>
-                    <li class="cabecalho-lista-item"><a href="contato.html">CONTATO</li></a>
-                </ul>
-            </header>
+                <img class="cabecalho-imagem" src="LOGO" alt="LOGISTE."> 
+    
+            </nav>
+               <li>
+                <a href="#quem-somos" class="active">Quem somos</a>
+               </li>
+                
+               <li>
+                <a href="#serviço" class="active">Serviço</a>
+              </li>
+
+              <li>
+                <a href="#odia" class="active">Dia do noivo</a> 
+              </li>
+
+              <li>
+                <a href="#contato" class="active">contato</a>
+               </li>
+			  
+            <div class="search-container">
+              <input placeholder="Procurar..." />
+              <button>
+                Pesquisar
+              </button>
+            </div>
+      
+            <div class="mobile-menu">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" alt="close-icon" />
+            </div>
+          </div>
         </header>
+
+
+        
         <section id="quem_somos"></section>
     <img id="banner" src="banner.jpg">
     <div class="principal">
-        <h2 class="titulo-centralizado">Sobre a Barbearia Pink</h2>
+        <h2 class="titulo-centralizado">Sobre a Barbearia BLACK GRAY</h2>
 
-        <p>Localizado no coração da cidade a <strong>Barbearia Pink</strong>
-            traz para o mercado o que ha de melhor para o seu cabelo e barba. Fundada em 2019,
-            a Barbearia Pink ja é destaque na cidade e conquista novo clientes a cada dia. </p>
+        <p>Localizado no coração da cidade a Barbearia BLACK GRAY</strong> traz para o mercado o que ha de melhor para o seu cabelo e barba. Fundada em 2019,
+            a Barbearia BLACK GRAY ja é destaque na cidade e conquista novo clientes a cada dia. </p>
             
-        <p id="missao"><em>Nossa missao é: <strong>"Melhorar a autoestima das pessoas, mantendo sempre a qualidade no atendimento e serviços prestados num ambiente sempre limpo e organizado."</strong></em></p>  
+            
+        <p id="missao"><em>Visão: "Melhorar a autoestima das pessoas, mantendo sempre a qualidade no atendimento e serviços prestados num ambiente sempre limpo e organizado."</strong></em></p>  
         
         <p> A gente se especializou em ajudar os nossos clientes a criarem e manterem seus próprios estilos,
              dos mais conservadores aos mais modernos. Satisfação e a confiança dos nossos clientes são nossas prioridades. </p>
     </div>
 </section>
     <div class="beneficios">
-        <h3 class="titulo-centralizado">beneficios</h3>
+        <h3 class="titulo-centralizado">Beneficios</h3>
 
         <ul>
             <li class="itens">Honestidade</li>
@@ -44,8 +71,61 @@
             <li class="itens">Transparencia</li>  
             <li class="itens">Profissionais Qualificados</li>  
         </ul>
-        
         <img src="beneficios.jpg" class="imagembeneficios">
+       <section>
+        <section id="odia">
+          <div class="noivo">
+            <h2 class="titulo-centralizado"> O dia do Noivo!</h2>
+            <img src="diadonoivo.jpg" class="imagemnoivo">
+            <p> Disponibiliazamos tres pacotes completo para o noivo padrinhos e pais </p>
+                      
+                      <!-- Javascript -->
+                      <script type="text/javascript">
+                        window.onload=function(){
+                        var tfrow = document.getElementById('tfhover').rows.length;
+                        var tbRow=[];
+                        for (var i=1;i<tfrow;i++) {
+                          tbRow[i]=document.getElementById('tfhover').rows[i];
+                          tbRow[i].onmouseover = function(){
+                            this.style.backgroundColor = 'blue';
+                          };
+                          }
+                      };
+                      </script>
+
+            <table id="tfhover" class="tftable" border="1">
+              <tr><th>SILVER</th><th>GOLD</th><th>DIAMOND</th></tr>
+              <tr><td>barba e cabelo</td><td>barba e cabelo</td><td>barba e cabelo</td></tr>
+              <tr><td>Sobrancelha</td><td>Sobrancelha</td><td>Sobrancelha</td></tr>
+              <tr><td>Kit de Banho</td><td> Closet Kit de Banho</td><td>Closet Kit de Banho</td></tr>
+              <tr><td>Closet</td><td>Espaço para Making Of</td><td>Closet</td></tr>
+              <tr><td>Espaço para Making Of </td><td>  LMascara Negra</td><td>Espaço para Making Of</td></tr>
+              <tr><td></td><td>LHidratação</td><td>Limpeza facial</td></tr>
+              <tr><td></td><td>Musica ou Multinacional</td><td>Hidratação</td></tr>
+              <tr><td></td><td>LVideo Game Ps4</td><td>Toalete completo</td></tr>
+              <tr><td></td><td>Estacionamento</td><td>Closet Vip</td></tr>
+              <tr><td></td><td></td><td>Musica ou Multinacional</td></tr>
+              <tr><td></td><td></td><td>Video Game Ps4</td></tr>
+              <tr><td></td><td></td><td>Exclusividade</td></tr>
+              <tr><td></td><td></td><td>Manicure</td></tr>
+              <tr><td></td><td></td><td>Massagem Relaxante</td></tr>
+              <tr><td></td><td></td><td>Limpeza de Pele</td></tr>
+              <tr><td></td><td></td><td>Corretor Facial</td></tr>
+              <tr><td></td><td></td><td>Lanche Especial</td></tr>
+              <tr><td></td><td></td><td>Estacionamento</td></tr>
+              </table>
+              
+          </div>
+        </section> 
     </div>
+   </div>
+</section>
+    <footer class="rodape">
+    <h4> <p>Rua Bahia, 1258 Centro  86.690-000 - Colorado - PR</p>
+        <p>E-mail: clomonteirolobato@seed.pr.gov.br</p>
+        <p>Tel: (44) 3323-1012    (44) 3323-1055 </p>
+        </h4>
+    </footer>
+    </body>
 </body>
 </html>
